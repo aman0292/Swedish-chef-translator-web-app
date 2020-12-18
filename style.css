@@ -1,0 +1,55 @@
+:root{
+    --blue:rgb(36, 165, 240);
+    --black: black;
+}
+header
+{
+    background-color: var(--blue);
+    max-width: 100%;
+    height: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+textarea
+{
+    width: 95%;
+    height: 10vh;
+    padding: 1rem;
+    display: block;
+    margin: 1rem;
+}
+#btn-translator
+{
+    width: 200px;
+    padding: 10px;
+    margin: 13px;
+    background-color: var(--blue);;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+#output
+{
+    border: 1px solid var(--black);
+    width: 95%;
+    height: 10vh;
+    margin: 1rem;
+    padding: 1rem;
+}
+#divHead
+{
+    font-weight: bold;
+    font-size: larger;
+    margin: 1rem;
+    font-size: 20px;
+
+}
+footer
+{
+    margin: 1rem;
+    margin-top: 40px;
+    padding: 1rem;
+    background-color: var(--blue);;
+    width: 95%;
+
+}
